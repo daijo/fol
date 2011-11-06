@@ -1,0 +1,6 @@
+Exists x Dog(x) AND Owns(Jack,x)
+ForAll x (Exists y Dog(y) AND Owns(x,y)) => AnimalLover(x)
+ForAll x AnimalLover(x) => (ForAll y Animal(y) => (Not Kills(x,y)))
+Kills(Jack,Tuna) OR Kills(Curiosity,Tuna)
+Cat(Tuna)
+ForAll x Cat(x) => Animal(x)

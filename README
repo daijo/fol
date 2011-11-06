@@ -1,0 +1,9 @@
+First Order Logic Resolution Theorem Prover In Haskell
+======================================================
+
+by Charles Chiou
+
+Abstract:
+Historically, functional programming languages such as ML had been designed with intentions for usage in theorem proving and expert systems. In this report, I present an implementation of a simple theorem prover in first-order logic using Haskell. Three major parts of this system include: the parser, the knowledge base, and the resolution-based inference engine. Most ideas were taken out of the AI text book by Russel & Norvig[1]. The algorithms and implementation details will be discussed in this report. 
+
+<http://www.cs.yale.edu/homes/cc392/>
