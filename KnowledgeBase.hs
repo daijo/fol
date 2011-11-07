@@ -220,7 +220,7 @@ hugsIORun m = performIO (runAndShowError m)
   runAndShowError m =
     m `catch` \err -> do
         putChar '\n'
-        putStr (ioeGetErrorString err)
+        -- putStr (ioeGetErrorString err)
         primExitWith 1 -- alternatively: (IO (\f s -> Hugs_SuspendThread))
 
-primitive ioeGetErrorString "primShowIOError" :: IOError -> String
+-- primitive ioeGetErrorString "primShowIOError" :: IOError -> String
